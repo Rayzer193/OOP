@@ -6,19 +6,12 @@ package Game.InfantryClass;
 
  public class Spearman extends InfantryClass {
 
-    public Spearman(String name) {
-        super(name, 100, 100, 7, 60, 14 );
+    public Spearman(String name, int x, int y) {
+        super(name,15,9,10,10, x, y);
     }
 
     @Override
-    public void step() {
-        System.out.println("Копейщик атакует!");
+    public String getName() {
+        return "Snipper";
     }
-
-    @Override
-    public String getInfo() {
-        return "Spearman";
-    }
-
-
 }
