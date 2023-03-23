@@ -66,8 +66,8 @@ public abstract class BaseHero implements Interface {
 
     @Override
     public String getInfo(){
-        String outStr = String.format("\t%-3s\t⚔️ %-3d\t\uD83D\uDEE1 %-3d\t♥️%-3d%%\t☠️%-3d\t        " , 0,0 , protection,(int) hp * 100/maxHp, damage);
-        return outStr;
+        String outStr = String.format("\t%-3s\tскорость:%-3d\tзащита:%-3d\thp:%-3d\tурон:%-3d\t         " , getName(),speed,protection,(int) hp * 100/maxHp,damage);
+        return outStr; 
     }
 
     public int getSpeed() {
