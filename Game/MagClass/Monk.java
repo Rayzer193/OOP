@@ -14,7 +14,7 @@ package Game.MagClass;
 
     @Override
     public String getName() {
-        return "Monk";
+        return "Монах";
     }
     
 }

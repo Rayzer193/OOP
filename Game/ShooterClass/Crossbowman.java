@@ -16,6 +16,6 @@ package Game.ShooterClass;
     
     @Override
     public String getName() {
-        return "Crossbowman";
+        return "Арбалетчик";
     }
 }

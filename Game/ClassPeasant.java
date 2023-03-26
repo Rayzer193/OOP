@@ -22,7 +22,7 @@ import java.util.ArrayList;
 
     @Override
     public String getName() {
-        return "Paesant";
+        return "Крестьянин";
     }
   
 }
